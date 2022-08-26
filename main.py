@@ -223,7 +223,7 @@ def draw(game_started, field, game_over, start_time, end_time):
 def main():
     game_started = False
     run = True
-    field = Field(20, 20, 75, 2)
+    field = Field(10, 10, 20, 2)
     game_over = 0
 
     start_time = 0
